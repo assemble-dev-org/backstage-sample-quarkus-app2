@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "my-quarkus-app2"
+  name: "Hello World Quarkus Application"
   annotations:
     argocd/app-name: my-quarkus-app2-dev
     backstage.io/kubernetes-id: my-quarkus-app2
@@ -24,6 +24,7 @@ spec:
   type: service
   lifecycle: production
   owner: "user:default/jayfray62"
+  system: janus-idp
   providesApis:
     - "my-quarkus-app2"
 ---
