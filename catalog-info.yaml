@@ -31,7 +31,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: "my-quarkus-app2"
+  name: "Hello World Quarkus Application"
 spec:
   type: openapi
   lifecycle: production
